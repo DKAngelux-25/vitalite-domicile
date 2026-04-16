@@ -1,0 +1,6 @@
+// Exemple simple : log console quand on clique sur le bouton
+document.querySelectorAll('.btn-cta').forEach(btn => {
+    btn.addEventListener('click', () => {
+        console.log("Redirection vers WhatsApp lancée...");
+    });
+});
